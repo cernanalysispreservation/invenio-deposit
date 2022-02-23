@@ -78,7 +78,7 @@ install_requires = [
     'invenio-records-rest>=1.0.0b5',
     'invenio-records-ui>=1.0.0a8',
     'invenio-search-ui>=1.0.0a5',
-    'invenio-search[elasticsearch7]==1.1.1',
+    'invenio-search @ git+https://github.com/parths007/invenio-search.git@os#egg=invenio-search',
 ]
 
 packages = find_packages()
