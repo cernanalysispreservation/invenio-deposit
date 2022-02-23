@@ -31,7 +31,7 @@ from functools import partial, wraps
 
 from dictdiffer import patch
 from dictdiffer.merge import Merger, UnresolvedConflictsException
-from elasticsearch.exceptions import RequestError
+from opensearchpy.exceptions import RequestError
 from flask import current_app
 from flask_login import current_user
 from invenio_db import db
@@ -340,7 +340,7 @@ class Deposit(Record):
         self['_deposit']['status'] = 'published'
 
         if self['_deposit'].get('pid') is None:  # First publishing
-            self._publish_new(id_=id_)
+            record = self._publish_new(id_=id_)
         else:  # Update after edit
             record = self._publish_edited()
             record.commit()

@@ -24,7 +24,7 @@
 
 """Configuration for deposit search."""
 
-from elasticsearch_dsl import Q, TermsFacet
+from opensearch_dsl import Q, TermsFacet
 from flask import has_request_context
 from flask_login import current_user
 from invenio_search import RecordsSearch
