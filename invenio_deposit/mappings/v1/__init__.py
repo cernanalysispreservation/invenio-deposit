@@ -22,4 +22,4 @@
 # waive the privileges and immunities granted to it by virtue of its status
 # as an Intergovernmental Organization or submit itself to any jurisdiction.
 
-"""Mappings for ES 7."""
+"""Mappings for OS 1."""
