@@ -75,10 +75,10 @@ install_requires = [
     'invenio-jsonschemas>=1.0.0a3',
     'invenio-oauth2server>=1.0.0a12',
     'invenio-records-files>=1.0.0a8',
-    'invenio-records-rest @ git+https://github.com/parths007/invenio-records-rest.git@os-2#egg=invenio-records-rest',
+    'invenio-records-rest @ git+https://github.com/parths007/invenio-records-rest.git@os-2-new#egg=invenio-records-rest',
     'invenio-records-ui>=1.0.0a8',
     'invenio-search-ui>=1.0.0a5',
-    'invenio-search[opensearch2] @ git+https://github.com/parths007/invenio-search.git@os-2#egg=invenio-search',
+    'invenio-search[opensearch2] @ git+https://github.com/parths007/invenio-search.git@v1.2.3#egg=invenio-search',
 ]
 
 packages = find_packages()
