@@ -78,7 +78,7 @@ install_requires = [
     'invenio-records-rest @ git+https://github.com/cernanalysispreservation/invenio-records-rest.git@os-3#egg=invenio-records-rest',
     'invenio-records-ui>=1.0.0a8',
     'invenio-search-ui>=1.0.0a5',
-    'invenio-search[opensearch3] @ git+https://github.com/cernanalysispreservation/invenio-search.git@os-3#egg=invenio-search[opensearch3]',
+    'invenio-search[opensearch3] @ git+https://github.com/cernanalysispreservation/invenio-search.git@os-3#egg=invenio-search',
 ]
 
 packages = find_packages()
